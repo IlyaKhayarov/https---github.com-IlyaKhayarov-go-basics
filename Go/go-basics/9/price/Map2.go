@@ -31,16 +31,16 @@ func getSumOfOrder(price map[string]int, order []string) {
 }
 func getValueFromMap(price map[string]int, key string) int {
 	pr, t := price[key]
-	if t == false {
+	if !t {
 		runes := []rune(key)
 		runes[0] = unicode.ToUpper(runes[0])
 		pr, t = price[string(runes)]
 	}
-	if t == false {
+	if !t {
 		pr, t = price[strings.ToUpper(key)]
 	}
-	if t == false {
-		pr, t = price[strings.ToLower(key)]
+	if !t {
+		pr = price[strings.ToLower(key)]
 	}
 	return pr
 }
