@@ -5136,3 +5136,12 @@ Go/GameHtml/three.js-dev/test/unit/utils/qunit-utils.js
 Go/GameHtml/three.js-dev/test/unit/utils/SmartComparer.js
 Go/GameHtml/three.js-dev/utils/packLDrawModel.js
 Go/GameHtml/three.js-dev/utils/build/rollup.config.js
+Go/GameHtml/environment.js
+Go/GameHtml/knighs-idle-animation.zip
+Go/GameHtml/images/heart_empty.png
+Go/GameHtml/images/heart_full.png
+Go/GameHtml/models/Aj_Block.fbx
+Go/GameHtml/models/Aj_Death.fbx
+Go/GameHtml/models/Aj_Idle.fbx
+Go/GameHtml/models/Aj_Run.fbx
+Go/GameHtml/models/Aj_Sword_Slash.fbx
